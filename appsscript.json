@@ -1,0 +1,34 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dateBase": "2026-11-14",
+  "scriptId": "",
+  "deployments": [],
+  "metadata": {
+    "search": "",
+    "categories": []
+  },
+  "googleDrive": {
+    "scopes": ["https://www.googleapis.com/auth/spreadsheets.currentonly"]
+  },
+  "functionExtensions": {},
+  "import": {
+    "functionDeclarations": [],
+    "serviceAccounts": []
+  },
+  "addons": {
+    "common": {
+      "name": "TITAN Statutory",
+      "description": "Zero-dependency statutory applicability diagnostics for TITAN Capital Forensics",
+      "author": "TITAN Capital Forensics",
+      "supportUrl": "https://titan.capitalforensics.com",
+      "homepageUrl": "https://titan.capitalforensics.com"
+    }
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets.currentonly",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "urlFetchWhitelist": [
+    "https://mcp.titancapitalforensics.com/"
+  ]
+}
